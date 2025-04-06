@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none; /* 밑줄 제거 */
+}
+
+.title {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding: 35px;
+	text-shadow: 2px 2px 4px rgba(0, 0.9, 0, 0.9);
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-weight: 900 !important; /* !important를 사용하려면 한 번만 작성 */
+}
+
+.title1 {
+	font-size: 30px;
+	color: black;
+	text-align: center;
+	padding: 35px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-weight: 900 !important; /* !important를 사용하려면 한 번만 작성 */
+}
+
+.title2 {
+	font-size: 30px;
+	color: red;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 2px 2px 4px rgba(0, 0.9, 0, 0.9);
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-weight: 900 !important; /* !important를 사용하려면 한 번만 작성 */
+}
+
+.title3 {
+	font-size: 30px;
+	color: #00BFFF;
+	text-align: center;
+	padding: 5px;
+	text-shadow: 2px 2px 4px rgba(0, 0.9, 0, 0.9);
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-weight: 900 !important; /* !important를 사용하려면 한 번만 작성 */
+}
+
+
+.content {
+	color: white;
+	position: relative; /* 부모 요소로 설정 */
+	width: 100%; /* 콘텐츠의 실제 너비에 맞춤 (필요에 따라 조정 가능) */
+	min-height: 900px; /* 콘텐츠 최소 높이 설정 */
+	margin: 0 auto; /* 가운데 정렬 */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.content-background {
+    background-image: url('../image/main_bn.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: bold;
+    font-size: 20px;
+    min-height: 600px;
+    height: 100%;
+    z-index: -1;
+}
+
+.left-align {
+	text-align: left; /* 왼쪽 정렬 */
+	margin-left: 200px;
+}
+
+.center-align {
+	text-align: center; /* 가운데 정렬 */
+}
+
+.right-align {
+	text-align: right; /* 오른쪽 정렬 */
+	margin-right: 190px;
+}
+
+.content2 table {
+	width: auto;
+	margin: 0 auto;
+}
+
+.content2 table th, td {
+	border: 1px solid black;
+}
+
+.content table.btn_group {
+	text-align: center;
+}
+
+.content2 {
+	color: white;
+	background-color: black;
+	background-position: center;
+}
+
+.content3 {
+	color: white;
+	background-color: black;
+	background-position: center;
+}
+
+.content3 table {
+	width: auto;
+	margin: 0 auto;
+}
+
+.content3 table th, td {
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+
+
+
+
+td {
+	width: 810px; /* 셀의 가로 크기를 일정하게 설정 (필요에 따라 조정 가능) */
+	min-height: 100px; /* 셀의 최소 높이 설정 */
+	overflow: hidden; /* 넘치는 텍스트를 숨김 */
+	word-wrap: break-word; /* 단어 줄바꿈 */
+}
+
+.content3 table.btn_group {
+	text-align: center;
+}
+
+.character_name {
+	min-height: 365px;
+	width: 300px;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.5; /* 줄 간격을 일정하게 유지 */
+	word-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+}
+
+/*-----------Horizon-------#cdeaf6--*/
+
+.content4 {
+	
+    color: black;
+    background-image: url('../image/Horizon/jamaal-cooks-sp4dq3f825M-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* 스크롤 시 배경 고정 (선택사항) */
+}
+
+.content4 table {
+	border-spacing: 0 15px;
+	width: 1450px;
+	margin:  auto;
+	/*border-collapse: collapse; 셀 간 빈공간 없이 깔끔하게 연결 */
+}
+/* 수정된 코드 - .content4 안에 있는 th, td에만 적용됨 */
+.content4 table th,
+.content4 table td {
+	min-height: 380px; 
+    vertical-align: top;
+    border: 1px solid white;
+	background-color:white;
+}
+.content4 img {
+    display: block;
+    margin : 0 auto;
+}
+.character4_name {
+	width: 250px;
+	display: block;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 1.2; /* 줄 간격을 일정하게 유지 */
+	word-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+}
+.content4 td p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.red-text {
+	color: #d91014;
+}
+
+.blue-text {
+	color: #7FFFD4;
+}

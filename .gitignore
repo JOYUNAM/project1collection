@@ -1,0 +1,30 @@
+/build/
+
+# === Eclipse 설정 ===
+.metadata/
+Servers/
+.settings/
+.project
+.classpath
+
+# === 빌드 관련 ===
+build/
+target/
+bin/
+out/
+
+# === IDE 설정 ===
+.idea/
+.vscode/
+*.iml
+
+# === OS 무시 파일 ===
+.DS_Store
+Thumbs.db
+
+# === 로그, 컴파일 파일 ===
+*.log
+*.class
+*.war
+*.jar
+*.tmp
