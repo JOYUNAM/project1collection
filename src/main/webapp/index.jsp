@@ -44,7 +44,7 @@
 	</div>
 
 	<div class="footer">
-		<p>Kingdom Come Deliverance 2 とても面白い靭性が壊れたヘンリ</p>
+		<p>증거운 게임 생활을 합시다 !!</p>
 	</div>
 </body>
 

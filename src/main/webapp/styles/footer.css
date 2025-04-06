@@ -9,8 +9,8 @@
 	background-size: auto 100px; /* 높이는 100px로 유지, 가로 크기는 자동 */
 	background-repeat: repeat-x; /* 가로로 반복 */
 	background-position: center; /* 중앙 정렬 */
-	/*font-weight: bold;*/
-	padding: 15px 0;
+	font-weight: bold;
+	padding: 17px 0;
 }
 
 
