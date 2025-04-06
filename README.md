@@ -9,7 +9,7 @@ JSP와 HTML/CSS를 활용한 웹 콘텐츠 연습 프로젝트입니다.
 
 ## 🖼️ 메인 이미지
 
-![메인 이미지](src/main/webapp/image/main.jpg)
+![메인 이미지](src/main/webapp/image/Readme/main.jpg)
 
 ---
 
